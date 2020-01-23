@@ -4,22 +4,10 @@ const method = 'POST';
 
 sendInputData = () => {
     document.querySelector('#submit').addEventListener('click', () => {
-        let xhr = new XMLHttpRequest();
         let inputName = document.getElementById('input-name').value;
         let inputMessage = document.getElementById('input-message').value;
-        let params = `name=${inputName}&message=${inputMessage}`;
-
-        xhr.open(method, url, true);
-        xhr.setRequestHeader('Content-type', "application/x-www-form-urlencoded");
-
-        xhr.onreadystatechange = () => {
-            if (xhr.readyState === 4 && xhr.status === 200) {
-                console.log(JSON.parse(xhr.responseText));
-                renderList(xhr);
-            }
-        };
-        xhr.send(params);
-    });
+        let paramet = `name=${inputName}&message=${inputMessage}`;
+    }
 };
 
 
