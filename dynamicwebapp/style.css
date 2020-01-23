@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: t26-carbon, monospace;
+    padding-left: 10vw;
+    padding-top: 7vh;
+}
+
+
+.username {
+    margin-bottom: 0
+}
+.message {
+    margin-bottom: 0;
+}
+
+
+.inputbox {
+    width: 100px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding-bottom: 5px;
+    transition: width 0.4s ease-in-out;
+    font-family: t26-carbon, monospace;
+    font-size: 1rem;
+    color: darkgray;
+}
+.inputbox:focus {
+    border: 2px solid darkgray;
+    width: 400px;
+    color: black;
+    outline: none;
+}
+
+
+.submitbox {
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    border: 1px solid;
+    cursor: pointer;
+    font-family: t26-carbon, monospace;
+    font-size: 0.8rem;
+}
+.submitbox:hover {
+    color: black;
+    background-color: white;
+}

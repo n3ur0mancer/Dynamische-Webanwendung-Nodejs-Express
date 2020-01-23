@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dynamic Web App</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.typekit.net/akl1lbd.css">
+    </head>
+
+    <body>
+        <h2>Messaging System</h2>
+        <form id="comment-form" autocomplete="off">
+            <label for="input-name" class="username">Username:</label>
+            <input class="inputbox" type="text" name="name" placeholder="Type.." id="input-name">
+            <br>
+            <label for="input-message" class="message">Message:</label>
+            <input class="inputbox" type="text" name="input-message" placeholder="Type.." id="input-message">
+            <br><br>
+            <input class="submitbox" type="submit" value="Submit">
+        </form>
+        
+        <ul id="comment-list"></ul>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
